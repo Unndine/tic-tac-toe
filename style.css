@@ -1,0 +1,30 @@
+h1 {
+  font-size: bolder;
+}
+
+h2 {
+  font-size: bold;
+}
+
+.board {
+  display: grid;
+  grid-template: repeat(3, 100px) / repeat(3, 100px);
+  grid-gap: 10px;
+  background: rgb(215, 216, 223);
+  width: 320px;
+  margin: auto;
+  padding: 15px;
+}
+
+.cell {
+  background: rgb(98, 98, 146);
+  font-size: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.cell span {
+  transform: rotate(45deg);
+  display: inline-block;
+}
